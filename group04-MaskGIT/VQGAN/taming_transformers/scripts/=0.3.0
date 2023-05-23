@@ -1,0 +1,49 @@
+Requirement already satisfied: omegaconf in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (2.3.0)
+Requirement already satisfied: pytorch-lightning in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (2.0.2)
+Requirement already satisfied: einops in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (0.6.1)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from omegaconf) (4.9.3)
+Requirement already satisfied: PyYAML>=5.1.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from omegaconf) (6.0)
+Requirement already satisfied: numpy>=1.17.2 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (1.24.3)
+Requirement already satisfied: torch>=1.11.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (2.0.1)
+Requirement already satisfied: tqdm>=4.57.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (4.65.0)
+Requirement already satisfied: fsspec[http]>2021.06.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (2023.5.0)
+Requirement already satisfied: torchmetrics>=0.7.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (0.11.4)
+Requirement already satisfied: packaging>=17.1 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (23.1)
+Requirement already satisfied: typing-extensions>=4.0.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (4.5.0)
+Requirement already satisfied: lightning-utilities>=0.7.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from pytorch-lightning) (0.8.0)
+Requirement already satisfied: requests in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from fsspec[http]>2021.06.0->pytorch-lightning) (2.29.0)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1
+  Downloading aiohttp-3.8.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.0 MB[0m [31m2.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/1.0 MB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/1.0 MB[0m [31m1.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/1.0 MB[0m [31m1.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/1.0 MB[0m [31m1.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m0.6/1.0 MB[0m [31m2.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━[0m [32m0.9/1.0 MB[0m [31m3.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/1.0 MB[0m [31m3.6 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: filelock in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from torch>=1.11.0->pytorch-lightning) (3.9.0)
+Requirement already satisfied: sympy in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from torch>=1.11.0->pytorch-lightning) (1.12)
+Requirement already satisfied: networkx in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from torch>=1.11.0->pytorch-lightning) (2.8.4)
+Requirement already satisfied: jinja2 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from torch>=1.11.0->pytorch-lightning) (3.1.2)
+Requirement already satisfied: attrs>=17.3.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning) (23.1.0)
+Requirement already satisfied: charset-normalizer<4.0,>=2.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning) (3.1.0)
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/117.4 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m117.4/117.4 kB[0m [31m4.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting async-timeout<5.0,>=4.0.0a3
+  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/282.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/282.8 kB[0m [31m14.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m282.8/282.8 kB[0m [31m922.7 kB/s[0m eta [36m0:00:00[0m
+[?25hCollecting frozenlist>=1.1.1
+  Downloading frozenlist-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (154 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/154.3 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m154.3/154.3 kB[0m [31m5.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting aiosignal>=1.1.2
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from jinja2->torch>=1.11.0->pytorch-lightning) (2.1.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from requests->fsspec[http]>2021.06.0->pytorch-lightning) (3.4)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/140.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m140.9/140.9 kB[0m [31m5.5 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: certifi>=2017.4.17 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from requests->fsspec[http]>2021.06.0->pytorch-lightning) (2023.5.7)
+Requirement already satisfied: mpmath>=0.19 in /home/umut/anaconda3/envs/maskgit/lib/python3.11/site-packages (from sympy->torch>=1.11.0->pytorch-lightning) (1.2.1)
+Installing collected packages: urllib3, multidict, frozenlist, async-timeout, yarl, aiosignal, aiohttp
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.0.2
+    Uninstalling urllib3-2.0.2:
+      Successfully uninstalled urllib3-2.0.2
+Successfully installed aiohttp-3.8.4 aiosignal-1.3.1 async-timeout-4.0.2 frozenlist-1.3.3 multidict-6.0.4 urllib3-1.26.15 yarl-1.9.2

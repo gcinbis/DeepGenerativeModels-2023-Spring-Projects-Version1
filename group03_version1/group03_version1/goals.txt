@@ -1,0 +1,23 @@
+Group 03 Project Milestone-III
+
+Project paper title: Transformer based Generative Adversarial Networks with Style Vector
+URL: https://arxiv.org/pdf/2106.07023.pdf
+Team / members: Group 03 / Yusuf Soydan, Bartu Akyürek
+
+In this project, we will demonstrate the model declared in “Styleformer: Transformer based Generative Adversarial Networks with Style Vector” paper. There are three models proposed based on the transformer architecture. The base model is Styleformer which includes a special encoder mechanism which is multiply cascaded in the model. The proposed encoder takes advantage of self-attention mechanisms which have modulation and demodulation layers. In addition to the base model (Styleformer), authors propose two more models, named Styleformer-C and Styleformer-L which are modified versions of the original one and they showed these methods have enhanced results in generating higher dimensionality images.  
+
+In the redevelopment of the study of the paper, we are planning to construct the main model proposed in the paper. This model is reasonably complex compared to the other models mentioned in the paper which are trained on high resolution image datasets including CLEVR (256x256), Cityscapes (256x256), AFHQ CAT (512x512). However, Styleformer is trained with lower resolution image datasets.Table2 shows the comparison results of Styleformer with the other methods previously proposed on achieved FID and IS scores on CIFAR-10 (32x32 incl. 60k images), STL-10 (96x96 incl 100k+ images) and CelebA (225x295 including. 200k+ images) datasets. In addition to the quantitative results, the paper also has qualitative results of Styleformer in Figure 16. W0 dataset because it is more reproducible for us to train such a transformer-based model including several attention layers.  
+
+—— version 1 submission ——
+
+We have discussed some of the difficulties we have encountered at the end of the Jupyter notebook. We kept our goal as the same, computing FID and IS scores on CIFAR-10 dataset (we used 50K training images as Styleformer paper did) and tried to implement vanilla Styleformer architecture, i.e. StyleGAN2 with a generator that has modulated attention mechanism. 
+
+The paper mentions that they worked on top of StyleGAN2-ADA implementation; therefore, we also based our work on a simplified StyleGAN2 implementation with references given in the main.ipynb.
+
+As also mentioned at the end of our Jupyter notebook, the results in the notebook are behind the results we save during training. Please refer to "loss_plot_20999.png" and "generated_images_46999.png" for a summary of our results. FID and IS scores are included in the notebook.
+
+For Version 2, we plan to change FID computation that will allow us to compute FID over a larger set of images. Additionally, we will see whether the results improve or not if our model trained longer. At this version, the generated images look like they are coming from CIFAR10's distribution when we look from far away, and there are some images looking like a red car and a plane occasionally, but we still don't see a definite object in the generated images.
+
+Finally, we can observe the improvement of our model by looking at the generated images from step 200, step 2000, and step 47000. Please refer to "generated_images_199.png", "generated_images_1999.png", and "generated_images_46999.png" inside the provided zip folder.
+
+As a side note, we expect the main notebook to run in Google Colab as there are code blocks for mounting to Google Drive.

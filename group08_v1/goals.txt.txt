@@ -1,0 +1,14 @@
+Project: END-TO-END DEEP STRUCTURE GENERATIVE MODEL FOR PROTEIN DESIGN (https://www.biorxiv.org/content/10.1101/2022.07.09.499440v1.full.pdf)
+
+Qualitative Goal: Present example visuals demonstrating the ability of our model to reconstruct protein structures. To this end, for Figure 2(A):
+a. Show examples of reconstructed backbone structures with different folds and sizes (by working on protein structures such as 1WTE, 3ZIJ, and 2JAC).
+b. Illustrate the hidden representation of our model that has learned useful folding information from input proteins by embedding the components with t-SNE in Figure 2(D), color-coded with CATH class labels, and show how the structures cluster in the hidden space.
+
+Quantitative Goal: Measure the success of our model and compare the performance metrics specified in Table 1 reported in the article.
+a. Obtain average RMSD, TM-score, LDDT, and L1 distance values using different feature combinations of our model and compare them to the results in Table 1.
+b. Evaluate short, medium, and long-range contact accuracy and present results related to inter-residue distances derived from the generated 3D coordinates in Table 1.
+
+—— version 1 submission ——
+İstenilen figürler plot edilemedi ancak örnek VAE kodu yazılarak V2 için ön hazırlık tamamlandı.
+Ayrıca veri setini çalıştırmak için hazır hale getirirken de problem çıktı, yine V2'de bu sorun da çözülüp gerekli figürler çizilecek.
+Bundan dolayı dataset'teki seçili proteinler 3 boyutlu olarak çizdirildi, yazılan VAE kodu çalıştırıldıktan sonra da sonuçlar V2'de plot ettirilecek.

@@ -1,0 +1,10 @@
+# datasets
+babies/
+
+# runtime
+.ipynb_checkpoints/
+__pycache__
+
+# checkpoints
+*.pt
+ckpts/

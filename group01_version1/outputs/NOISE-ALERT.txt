@@ -1,0 +1,10 @@
+Following files contain VERY HIGH VOLUME NOISE:
+sashimi1-epoch42.wav
+sashimi1-epoch50.wav
+sashimi1-epoch52.wav
+
+Following files contain some noise:
+sashimi1-epoch7.wav
+sashimi1-epoch55.wav
+
+You have been warned.
